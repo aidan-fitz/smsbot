@@ -1,5 +1,5 @@
 from http.server import HTTPServer, BaseHTTPRequestHandler
-from socketserver import ThreadingMixIn # can use ForkingMixin instead to make a multi process system
+from socketserver import ThreadingMixIn # can use ForkingMixIn instead to make a multi process system
 from urllib.parse import parse_qs
 
 # via https://github.com/Nakiami/MultithreadedSimpleHTTPServer
